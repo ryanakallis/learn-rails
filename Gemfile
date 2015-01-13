@@ -4,7 +4,7 @@ gem 'rails', '4.2.0'
 
 # Rails defaults
 gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -14,7 +14,7 @@ gem 'spring', group: :development
 gem 'therubyracer', platforms: :ruby
 
 # learn-rails
-gem 'foundation-rails'
+gem 'foundation-rails', '5.4.5'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
