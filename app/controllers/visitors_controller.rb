@@ -6,6 +6,7 @@ class VisitorsController < ApplicationController
 
     @owner = Owner.new
     Rails.logger.debug @DEBUG + ': Owner name is ' + @owner.name
+    render 'visitors/new'
   end
 
 end
