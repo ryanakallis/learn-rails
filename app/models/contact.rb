@@ -12,7 +12,6 @@ class Contact
   validates_length_of :content, :maximum => 500
 
   def update_spreadsheet
-    binding.pry
     connection = GoogleDriveV0.login(Rails.application.secrets.email_provider_username, Rails.application.secrets.email_provider_password)
     ss = connection.spreadsheet_by_title('Learn-Rails-Example')
     if ss.nil?
