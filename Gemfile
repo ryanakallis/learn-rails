@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring', group: :development
 gem 'therubyracer', platforms: :ruby
 
+gem 'pry'
+
 # learn-rails
 gem 'foundation-rails', '5.4.5'
 gem 'gibbon'
